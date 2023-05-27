@@ -1,4 +1,4 @@
-class Person {
+class PersonClass {
     name: string;
     age: number;
   
@@ -12,12 +12,12 @@ class Person {
     }
   }
 
-  const person = new Person('john doe', 20)
-  person.sayHello()
+  const personClassPersonClass = new PersonClass('john doe', 20)
+  personClassPersonClass.sayHello()
 
 
 //   Inheritance 
-  class EmployeeId extends Person {
+  class EmployeeId extends PersonClass {
     employeeId: number;
 
     constructor(name: string,age:number, employeeId: number){
@@ -36,6 +36,6 @@ class Person {
 //   Polymorphism
 
   {
-    const person: Person = new EmployeeId("Jane Smith", 25, 1234);
-    person.sayHello();
+    const personClassPersonClass: PersonClass = new EmployeeId("Jane Smith", 25, 1234);
+    personClassPersonClass.sayHello();
   } 
